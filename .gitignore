@@ -1,0 +1,21 @@
+*.weights 
+# Large model files
+*.pt
+*.weights
+*.pth
+*.onnx
+
+# YOLO folders
+yolo-coco/
+runs/
+datasets/
+unique_detections/
+
+# Cache
+__pycache__/
+*.npy
+*.npz
+*.cache
+
+# Windows temp files
+~$*
