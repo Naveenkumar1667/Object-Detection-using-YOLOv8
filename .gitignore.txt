@@ -1,0 +1,26 @@
+# YOLO / Object Detection large files
+*.pt
+*.pth
+*.onnx
+*.weights
+
+# Ultralytics Outputs
+runs/
+labels/
+dataset/
+datasets/
+data/
+
+# Cache
+__pycache__/
+*.cache
+*.npy
+*.npz
+
+# IDE folders
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
